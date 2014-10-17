@@ -18,6 +18,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.Animation.AnimationListener;
+import android.view.animation.AnimationUtils;
 
 /*
  *@author: ZhengHaibo  
@@ -42,4 +45,36 @@ public class MyFragment extends Fragment {
 		// TODO Auto-generated method stub
 		super.onAttach(activity);
 	}
+
+	/**
+	 * if you need add animation listener for the fragment
+	 * please use this method
+	 */
+//	@Override
+//	public Animation onCreateAnimation(int transit, boolean enter, int nextAnim) {
+//		Animation anim;
+//		if (enter) {
+//			anim = AnimationUtils.loadAnimation(getActivity(),
+//					android.R.anim.fade_in);
+//		} else {
+//			anim = AnimationUtils.loadAnimation(getActivity(),
+//					android.R.anim.fade_out);
+//		}
+//
+//		anim.setAnimationListener(new AnimationListener() {
+//			public void onAnimationEnd(Animation animation) {
+//				
+//			}
+//
+//			public void onAnimationRepeat(Animation animation) {
+//				
+//			}
+//
+//			public void onAnimationStart(Animation animation) {
+//				
+//			}
+//		});
+//
+//		return anim;
+//	}
 }

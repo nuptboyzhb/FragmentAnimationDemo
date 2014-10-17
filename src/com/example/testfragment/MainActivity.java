@@ -10,6 +10,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**
+ * 
+ * @author Zheng Haibo
+ * @web http://www.mobctrl.net
+ *
+ */
 public class MainActivity extends ActionBarActivity {
 
 	private FragmentManager fragmentManager;
